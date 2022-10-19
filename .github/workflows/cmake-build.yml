@@ -1,5 +1,8 @@
 name: Trapdoor Build
-on: [ push ]
+on: 
+  push:
+    tags:
+    - 'v*'
 jobs:
   Build:
     runs-on: windows-latest
