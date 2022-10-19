@@ -1,5 +1,5 @@
 name: Trapdoor Build
-on: [push]
+on: [ push ]
 jobs:
   Build:
     runs-on: windows-latest
@@ -63,4 +63,4 @@ jobs:
           files: |
             release.zip
         env:
-          GITHUB_REPOSITORY: hhhxiao/trapdoor-ll
+          GITHUB_REPOSITORY: quizhizhe/BedrockOptimizer
